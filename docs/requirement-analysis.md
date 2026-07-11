@@ -34,7 +34,7 @@ The solution should not only implement the required functionality but also demon
    Should room availability be calculated dynamically from existing bookings, or should each room maintain a separate availability status?
 
 2. **Booking Lifecycle**
-   I propose the booking lifecycle to be `Pending → Confirmed → Completed`, with `Cancelled` as an alternate terminal state if the payment fails or an admin/user cancels the booking. Does this match the expected business workflow, or should additional states (such as `Refunded` or `Expired`) be included?
+   I propose the booking lifecycle to be `Pending → Confirmed → Completed`, with `Cancelled` as an alternate terminal state if the payment fails or an admin/user cancels the booking. Does this match the expected business workflow, or should additional states (such as `Refunded` or `Expired`) be included? 
 
 3. **Payment Timeout**
    If a user starts the booking process but abandons it before completing payment, should the booking automatically expire after a specific time, and if so, after how long?
